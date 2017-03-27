@@ -1,5 +1,5 @@
 # 3A
-# 3.1
+## 3.1
 ```assembly
     .data
 mat1:   .space 5*6*4
