@@ -21,6 +21,7 @@ pèrdua de precisió en la conversió que proposa aquesta pràctica?**
 
 
 2.  **Indica un valor de cfixa per al qual es produiria pèrdua de precisió al convertir-lo, i el corresponent valor en coma flotant:**    
+
 |    Cfixa   |  Cflotant  |
 |:----------:|:----------:|
 | 0x00000000 | 0x00000000 |
