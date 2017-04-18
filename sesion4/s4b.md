@@ -33,4 +33,4 @@ cf = (cf>>8)&0x7FFFFF
 Truncament  
 
 5.  **El format de coma fixa explicat en aquesta pràctica permet codificar un rang de valors bastant limitat. Indica un número positiu que estigui DINS el rang del format de coma flotant de simple precisió (en decimal) però que estigui FORA del rang del format de coma fixa. Indica també quin és el MENOR número potència de 2 que compleixi aquesta condició.**   
-3*10^(-15)
+2^-126
