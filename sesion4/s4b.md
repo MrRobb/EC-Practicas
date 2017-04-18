@@ -18,16 +18,19 @@
 ## 4.4 (NOT FINISHED)
 1.  **Quina condició ha de complir el valor inicial de cfixa perquè es produeixi
 pèrdua de precisió en la conversió que proposa aquesta pràctica?**   
-
+Es perd precisió quan la mantisa té mes de 23 xifres binaries significatives.   
 
 2.  **Indica un valor de cfixa per al qual es produiria pèrdua de precisió al convertir-lo, i el corresponent valor en coma flotant:**    
 
 |    Cfixa   |  Cflotant  |
 |:----------:|:----------:|
-| 0x00000000 | 0x00000000 |
+| 0x003FF3FF | 0x447FCFFC |
 
 3.  **En quina sentència concreta del programa en alt nivell es pot produir la pèrdua de precisió?**   
+cf = (cf>>8)&0x7FFFFF   
 
 4.  **Quin dels 4 modes d’arrodoniment que coneixes està portant a la pràctica aquest programa de conversió?**    
+Truncament  
 
 5.  **El format de coma fixa explicat en aquesta pràctica permet codificar un rang de valors bastant limitat. Indica un número positiu que estigui DINS el rang del format de coma flotant de simple precisió (en decimal) però que estigui FORA del rang del format de coma fixa. Indica també quin és el MENOR número potència de 2 que compleixi aquesta condició.**   
+3*10^(-15)
