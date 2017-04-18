@@ -15,7 +15,7 @@
 |   -0.0  | 1.0000000000000000000.000000000000 --> 0x80000000 | 0x80000000 |
 |  12.75  | 0.0000000000000001100.011100110011 --> 0x0000C733 | 0x41473300 |
 
-## 4.4 (NOT FINISHED)
+## 4.4
 1.  **Quina condició ha de complir el valor inicial de cfixa perquè es produeixi
 pèrdua de precisió en la conversió que proposa aquesta pràctica?**   
 Es perd precisió quan la mantisa té mes de 23 xifres binaries significatives.   
