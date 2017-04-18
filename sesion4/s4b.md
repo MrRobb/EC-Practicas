@@ -18,7 +18,7 @@
 ## 4.4
 1.  **Quina condició ha de complir el valor inicial de cfixa perquè es produeixi
 pèrdua de precisió en la conversió que proposa aquesta pràctica?**   
-Es perd precisió quan la mantisa té mes de 23 xifres binaries significatives.   
+Es perd precisió quan la mantissa té més de 23 xifres binaries significatives.   
 
 2.  **Indica un valor de cfixa per al qual es produiria pèrdua de precisió al convertir-lo, i el corresponent valor en coma flotant:**    
 
